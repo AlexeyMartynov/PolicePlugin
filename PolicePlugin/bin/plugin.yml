@@ -1,0 +1,12 @@
+name: PolicePlugin
+main: io.github.alexeymartynov.police.main.PolicePlugin
+version: 0.0.1
+author: bybyzyanka
+description: Plugin was made by bybyzyanka (vk.com/kai9595)
+commands:
+  police:
+    usage: /police help
+    description: PolicePlugin Command
+  911:
+    usage: /police help
+    description: PolicePlugin Command

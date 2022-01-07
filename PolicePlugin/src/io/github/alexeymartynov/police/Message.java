@@ -1,0 +1,44 @@
+package io.github.alexeymartynov.police;
+
+import io.github.alexeymartynov.util.Util;
+
+public enum Message {
+
+	NOT_ENOUGH_PERMISSIONS,
+	YOU_ARE_ALREADY_POLICEMAN,
+	YOU_ARE_NOT_POLICEMAN,
+	POLICE_INVITE,
+	PLAYER_IS_NOT_EXIST,
+	CALL_ACCEPT,
+	CALL_ACCEPT_BY,
+	CALL_DECLINE,
+	PLAYER_IS_ALREADY_POLICEMAN,
+	PLAYER_IS_NOT_POLICEMAN,
+	PLAYER_IS_NOT_CUFFED,
+	ARRESTED,
+	NOTHING_ON_FRISK,
+	PLAYER_MUST_ME_CUFFED,
+	PLAYER_IS_ALREADY_INVITED,
+	YOU_ARE_NOT_INVITED,
+	TOO_MUCH_POLICEMEN_WITH_THIS_RANK,
+	UP_RANK,
+	YOUR_SALARY,
+	PLAYER_IS_ALREADY_CUFFED,
+	YOU_HAVE_ALREADY_CALLED,
+	SET_LEADER,
+	YOU_HAVE_BEEN_KICKED,
+	CALL,
+	CALL_IS_NOT_EXIST,
+	FOUND_ON_FRISK,
+	CUFF,
+	UNCUFF,
+	RANK_IS_NOT_EXIST,
+	PLAYER_IS_NOT_ARRESTED,
+	SUCCESFUL;
+	
+	private String message;
+	
+	private Message() { message = Config.MESSAGES.get().getString("messages." + this.toString()); }
+	
+	public String get() { return Util.formatString(new String(message)); }
+}

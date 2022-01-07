@@ -1,0 +1,7 @@
+prohibited:
+  stvol_nah:
+    name: 'стволяра'
+    id: 'minecraft:stone'
+    check_lore: false
+    lore:
+      - 'запас 5 пистонов'

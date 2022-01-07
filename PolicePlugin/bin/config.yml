@@ -1,0 +1,27 @@
+jail:
+  world: world
+  x: 123
+  y: 123
+  z: 123
+call_reward: 10
+near_radius: 5.0
+frisk_item: 
+  name: 'palka'
+  id: 'minecraft:stone'
+  lore: []
+help:
+  all:
+    - '/911 - вызов полиции'
+    - '/police join - присоединиться к полиции'
+  police:
+    - '/police invite <nick> - пригласить игрока в ряды полиции'
+    - '/police kick <nick> - уволить негодяя'
+    - '/police cuff <nick> - надеть наручники на игрока'
+    - '/police uncuff <nick> - снять наручники с игрока'
+    - '/police arrest <nick> - арестовать игрока'
+    - '/police unarrest <nick> - выпустить игрока с тюрьмы'
+    - '/police payday - выдать зарплаты'
+    - '/police setrank <nick> <rank> - выдать игроку ранг'
+  op:
+    - '/police setleader <nick> - поставить игрока на пост лидера полиции'
+

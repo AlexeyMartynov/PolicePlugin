@@ -1,0 +1,54 @@
+ranks:
+  leader:
+    name: '&eЛидер Департамента'
+    places: 1
+    need_exp: 700
+    need_arrests: 99999
+    permissions:
+      - INVITE
+      - KICK
+      - CUFF
+      - FRISK
+      - ARREST
+      - SETRANK
+      - PAYDAY
+      - CALLACCEPT
+      - UNCUFF
+      - UNARREST
+    set:
+      1:
+        name: '&2Скала'
+        id: 'minecraft:stone'
+        lore:
+          - 'просто скала че ты'
+      2:
+        name: 'palka'
+        id: 'minecraft:stone'
+        lore: []
+  serjant:
+    name: '&eСержант'
+    places: 10      
+    need_exp: 10
+    need_arrests: 5
+    permissions:
+      - CUFF
+      - CALLACCEPT
+    set:
+      1:
+        name: '&2Скала2'
+        id: 'minecraft:stone'
+        lore:
+          - 'просто скала че ты'
+  junior:
+    name: '&eРекрут'
+    places: 10      
+    need_exp: 0
+    need_arrests: 0
+    permissions:
+      - CALLACCEPT
+    set:
+      1:
+        name: '&2Скала2'
+        id: 'minecraft:stone'
+        lore:
+          - 'просто скала че ты'

@@ -1,0 +1,7 @@
+arrest_seconds_for_1_star: 120
+jail:
+  world: world
+  x: 123
+  y: 123
+  z: 123
+arrested:
